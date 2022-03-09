@@ -24,6 +24,7 @@ spec:
           image: oussama24/backendapp:3.0
           ports:
             - containerPort: 5000
+          resources: {}  
           env:
             - name: USER_NAME
               valueFrom:
